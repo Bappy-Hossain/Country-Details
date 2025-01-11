@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -41,6 +43,7 @@ li {
 
 a {
   color: #000;
+  text-decoration: none;
 
   &:hover {
     color: #2e86c1;
