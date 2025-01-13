@@ -9,10 +9,10 @@ export const About = () => {
         we're proud of
       </h2>
       <div className="gradient-cards">
-        {countryFacts.map((curElem) => {
+        {countryFacts.map((curElem, index) => {
           const { name, capital, population, interestingFact } = curElem;
           return (
-            <div className="card">
+            <div className="card" key={index}>
               <div className="container-card bg-blue-box">
                 <p className="card-title">{name}</p>
                 <p>
