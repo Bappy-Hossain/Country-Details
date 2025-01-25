@@ -34,7 +34,7 @@ export const Footer = () => {
               <p>
                 Copyright &copy; 2025, All Right Reserved
                 <NavLink to="https://bappytechnical.shop" target="_blank">
-                  BappyTechnical
+                  BappyTechnical.
                 </NavLink>
               </p>
             </div>
